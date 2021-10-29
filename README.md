@@ -2,6 +2,8 @@
 
 monitor flutter platform channel profiler, include `EventChannel`, `MethodChannel`, and `BinaryChannel`.<br>
 
+[中文文档](https://github.com/siyehua/flutter_channel_monitor/README_cn.md)
+
 ## Getting Started
 
 ```dart
@@ -31,13 +33,13 @@ class MyApp extends StatelessWidget {
 
 02. dump to it:
 
-![3361635491551_.pic.jpg](./doc/3361635491551_.pic.jpg)
+![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/doc/3361635491551_.pic.jpg)
 
 
 ## Other Use
 
 01. Parse channel profiler use web
-The [example](./example) support web, you can run it in web and parse channel profiler files in web.
+The [example](https://github.com/siyehua/flutter_channel_monitor/example) support web, you can run it in web and parse channel profiler files in web.
 <br>
 
 Note: the web don't support platforms channel, so it can parse channel profiler files form your computer.
@@ -67,5 +69,5 @@ ChannelMonitorManager.instance
 ```
 
 ### if you custom `WidgetsFlutterBinding` or `BinaryMessenger`, you can use `ChannelMonitorManager`.
-more info, click[custom_flutter_binding](./lib/monitor/custom_flutter_binding.dart)
+more info, click[custom_flutter_binding](https://github.com/siyehua/flutter_channel_monitor/lib/monitor/custom_flutter_binding.dart)
 
