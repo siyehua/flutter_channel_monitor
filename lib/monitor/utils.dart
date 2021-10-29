@@ -14,7 +14,10 @@ class WaitTimeOuter {
 }
 
 ///打印日志
-bool logPrint = true;
+bool logPrint = false;
+
+/// use test data
+bool useTestData = false;
 
 
 /// 获取当前平台的名字

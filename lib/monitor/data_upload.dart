@@ -13,7 +13,7 @@ class DataManager {
   static const SHOULD_UPLOAD_KEY = "should_upload";
 
   /// max file size
-  static const maxSize = 1024;
+  static const maxSize = 1024 * 50;
 
   static final DataManager instance = DataManager._();
 

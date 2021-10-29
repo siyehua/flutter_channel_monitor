@@ -27,11 +27,16 @@ class ChannelMonitorManager {
   }
 
   /// set monitor time out seconds
-  int timeOut = 3;
+  int timeOut = 5;
 
   /// print log, default  is true
   set log(bool print) {
     logPrint = print;
+  }
+
+  /// use test data in Android or iOS
+  set testData(bool test) {
+    useTestData = test;
   }
 
   /// if you want to ignore some
