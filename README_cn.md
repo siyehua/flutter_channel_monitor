@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
 
 02. 跳过过去就能查看到数据:
 
-![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/doc/3361635491551_.pic.jpg)
+![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/tree/master/doc/3361635491551_.pic.jpg)
 
 
 ## 部署到线上查看
@@ -58,7 +58,7 @@ ChannelMonitorManager.instance
    };
 ```
 
-接着把当前项目编译成 web，就可以看到了，例子请看： [example](https://github.com/siyehua/flutter_channel_monitor/example)。<br>
+接着把当前项目编译成 web，就可以看到了，例子请看： [example](https://github.com/siyehua/flutter_channel_monitor/tree/master/example)。<br>
 注意 web 平台不支持 platforms channel，所以只能看导入外部数据查看，
 
 
@@ -86,5 +86,5 @@ ChannelMonitorManager.instance
 ```
 
 ### 如果你自定义了 `WidgetsFlutterBinding` 或 `BinaryMessenger`, 可是直接使用 `ChannelMonitorManager`.
-如何使用，可以参考这里 [custom_flutter_binding](https://github.com/siyehua/flutter_channel_monitor/lib/monitor/custom_flutter_binding.dart)
+如何使用，可以参考这里 [custom_flutter_binding](https://github.com/siyehua/flutter_channel_monitor/tree/master/lib/monitor/custom_flutter_binding.dart)
 
