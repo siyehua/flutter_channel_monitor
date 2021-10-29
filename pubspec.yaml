@@ -1,6 +1,6 @@
 name: channel_monitor
 description: monitor flutter platform channel profiler
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/siyehua/flutter_channel_monitor
 
 environment:
