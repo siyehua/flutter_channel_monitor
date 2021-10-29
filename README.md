@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
 
 02. dump to it:
 
-![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/tree/master/doc/3361635491551_.pic.jpg)
+![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/blob/master/doc/3361635491551_.pic.jpg)
 
 
 ## Other Use

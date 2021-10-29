@@ -35,8 +35,7 @@ class MyApp extends StatelessWidget {
 
 02. 跳过过去就能查看到数据:
 
-![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/tree/master/doc/3361635491551_.pic.jpg)
-
+![3361635491551_.pic.jpg](https://github.com/siyehua/flutter_channel_monitor/blob/master/doc/3361635491551_.pic.jpg)
 
 ## 部署到线上查看
 
