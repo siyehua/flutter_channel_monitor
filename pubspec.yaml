@@ -1,6 +1,6 @@
 name: channel_monitor
 description: monitor flutter platform channel profiler, include cost time and error stack
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/siyehua/flutter_channel_monitor
 
 environment:
