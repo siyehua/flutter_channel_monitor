@@ -19,7 +19,6 @@ bool logPrint = false;
 /// use test data
 bool useTestData = false;
 
-
 /// 获取当前平台的名字
 String getPlatformName() {
   if (kIsWeb) {

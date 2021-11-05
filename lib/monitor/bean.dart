@@ -63,4 +63,3 @@ abstract class ChannelObserver {
 
 /// upload channel data
 typedef UploadData = bool Function(String dataPaht);
-
