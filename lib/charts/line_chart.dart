@@ -3,7 +3,7 @@ import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import 'base_chanel_data.dart';
+import 'base_channel_data.dart';
 
 class AreaAndLineChart extends StatelessWidget {
   final List<charts.Series<LinearSales, DateTime>> seriesList;

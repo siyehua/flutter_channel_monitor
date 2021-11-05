@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'base_chanel_data.dart';
+import 'base_channel_data.dart';
 import 'channel_data.dart';
 import 'line_chart.dart';
 import 'method_data.dart';

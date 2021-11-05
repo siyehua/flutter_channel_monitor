@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import 'base_chanel_data.dart';
+import 'base_channel_data.dart';
 import 'base_page.dart';
 import 'method_data.dart';
 import 'native_parse_data.dart' if (kIsWeb) 'web_parse_data.dart' as parse;

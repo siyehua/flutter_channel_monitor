@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'base_chanel_data.dart';
+import 'base_channel_data.dart';
 
 /// 某个渠道的所有方法数据管理
 class StackDataManager with BaseChannelData {
@@ -16,7 +16,7 @@ class StackDataManager with BaseChannelData {
   }
 
   @override
-  Future<void> startGetData()async {
+  Future<void> startGetData() async {
     resetAllData(true);
     parseData(allDataMap, allLineShowList, lineShowList, singleItemSumCostMap,
         singleItemShowMap, listViewDataList);

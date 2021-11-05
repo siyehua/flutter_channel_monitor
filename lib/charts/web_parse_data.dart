@@ -1,15 +1,15 @@
 import 'dart:async';
+
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as webHtml;
-
 
 /// read file data from your computer
 Future<List<String>> getChannelData() async {
   Completer<List<String>> completer = Completer();
   List<String> result = [];
 
-  webHtml.FileUploadInputElement uploadInput =
-  webHtml.FileUploadInputElement()..multiple = true;
+  webHtml.FileUploadInputElement uploadInput = webHtml.FileUploadInputElement()
+    ..multiple = true;
   uploadInput.click();
   uploadInput.onChange.listen((e) {
     var allFiles = uploadInput.files ?? [];

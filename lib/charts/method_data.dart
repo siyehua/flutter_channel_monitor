@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'base_chanel_data.dart';
+import 'base_channel_data.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
 import 'base_page.dart';
